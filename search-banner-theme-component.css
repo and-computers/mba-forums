@@ -12,24 +12,14 @@ $max-width: 600px;
   padding-top: 4em;
 }
 
-
-// .darken {
-//   background-image: 
-//     linear-gradient(
-//       rgba(0, 0, 0, 0.5),
-//       rgba(0, 0, 0, 0.5)
-//     ),
-//     url(shoes.jpg);
-// }
-
 .custom-search-banner-wrap {
   @if $background-image != "none" {
     background-image: 
     linear-gradient(
-        rgba(0, 0, 0, 0.35),
-        rgba(0, 0, 0, 0.0)
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.15)
     ),
-    url($background-image);
+    url($illustrations-medley-for-the-banner);
   } @else {
     background: none;
   }
@@ -77,7 +67,7 @@ $max-width: 600px;
   h1 {
     font-size: $font-up-6;
     color: white;
-    line-height: $line-height-medium;
+    line-height: $line-height-small;
     @include breakpoint(tablet) {
       font-size: $font-up-4;
     }
