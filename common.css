@@ -1,0 +1,37 @@
+// Customize Links in user fields
+
+.public-user-field.instagram, .public-user-field.linkedin, .public-user-field.twitter {
+  display: none;
+}
+
+// .user-card-public-field .user-field-name {
+//     display: inline;
+// }
+
+#user-card .metadata h3 {
+  float: left;
+}
+
+h3.user-card-public-field {
+ clear: both;   
+}
+
+// dont show the view/read/posted stats
+.user-card .card-row .metadata h3 {
+    display: none;
+}
+
+.user-card div.instagram-link > h3 {
+    display: inline;
+}
+
+
+// user-card-metadata-outlet instagram-link ember-view
+
+
+.user-card-directory .user-card-container .user-card-directory-footer > span.stat {
+    display: none;
+}
+
+
+//
